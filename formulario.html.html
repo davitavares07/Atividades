@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header><h1> Projeto Formulário</h1></header>
+
+    <form action="/enviar" method="post">
+    
+
+    <section>
+        <label for="Nome">Nome de Usuário:</label>
+            <input type="text" placeholder="Usuário"> <br>
+        
+        <label for="Email">E-mail:</label>
+            <input type="email" placeholder="exemplo@exemplo.com"> <br>
+        
+        <label for="Senha">Senha:</label>
+            <input type="password" placeholder="********"> <br>
+        
+        <label for="local">Local:</label>
+            <select name="Local" id="Local">
+                <option value=""></option>
+                <option value="Brasil">Brasil</option>
+                <option value="United States">United States</option>
+                <option value="United Kingdom">United Kingdom</option>
+            </select> <br>
+
+        <label for="Mensagem">Mensagem:</label>
+                <textarea name="Mensagem" id="Mensagem" placeholder="Texto de exemplo">
+                </textarea> <br>
+
+        <label for="Botões"></label>
+            <button type="reset">Reiniciar</button>
+            <button type="submit">Enviar</button>
+
+    </section>
+    </form>
+    
+</body>
+</html>
