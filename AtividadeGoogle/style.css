@@ -1,0 +1,35 @@
+div {
+
+    display: flex;
+    justify-content: center;
+}
+
+img {
+
+    display: flex;
+    height: 450px;
+    width: 350px;
+    text-align: center;
+    object-position: center bottom;
+    object-fit: contain;
+    padding-bottom: 25px;
+}
+
+.dados {
+
+    text-indent: 30px;
+    height: 45px;
+    width: 600px;
+    border-radius: 50px;
+    
+}
+
+.botão {
+
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;  
+
+
+    }
